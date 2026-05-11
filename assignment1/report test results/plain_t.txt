@@ -1,0 +1,204 @@
+
+K: 8, iteration : 0
+
+# elapsed time (softime_plain): 9.617e-06s
+
+K: 8, iteration : 1
+
+# elapsed time (softime_plain): 4.683e-06s
+
+K: 8, iteration : 2
+
+# elapsed time (softime_plain): 5.646e-06s
+
+K: 16, iteration : 0
+
+# elapsed time (softime_plain): 4.787e-06s
+
+K: 16, iteration : 1
+
+# elapsed time (softime_plain): 4.448e-06s
+
+K: 16, iteration : 2
+
+# elapsed time (softime_plain): 4.818e-06s
+
+K: 32, iteration : 0
+
+# elapsed time (softime_plain): 5.043e-06s
+
+K: 32, iteration : 1
+
+# elapsed time (softime_plain): 4.781e-06s
+
+K: 32, iteration : 2
+
+# elapsed time (softime_plain): 4.735e-06s
+
+K: 64, iteration : 0
+
+# elapsed time (softime_plain): 4.97e-06s
+
+K: 64, iteration : 1
+
+# elapsed time (softime_plain): 5.001e-06s
+
+K: 64, iteration : 2
+
+# elapsed time (softime_plain): 5.79e-06s
+
+K: 128, iteration : 0
+
+# elapsed time (softime_plain): 5.643e-06s
+
+K: 128, iteration : 1
+
+# elapsed time (softime_plain): 5.796e-06s
+
+K: 128, iteration : 2
+
+# elapsed time (softime_plain): 6.413e-06s
+
+K: 256, iteration : 0
+
+# elapsed time (softime_plain): 7.18e-06s
+
+K: 256, iteration : 1
+
+# elapsed time (softime_plain): 7.226e-06s
+
+K: 256, iteration : 2
+
+# elapsed time (softime_plain): 7.64e-06s
+
+K: 512, iteration : 0
+
+# elapsed time (softime_plain): 1.1158e-05s
+
+K: 512, iteration : 1
+
+# elapsed time (softime_plain): 1.1046e-05s
+
+K: 512, iteration : 2
+
+# elapsed time (softime_plain): 9.556e-06s
+
+K: 1024, iteration : 0
+
+# elapsed time (softime_plain): 1.5002e-05s
+
+K: 1024, iteration : 1
+
+# elapsed time (softime_plain): 1.58e-05s
+
+K: 1024, iteration : 2
+
+# elapsed time (softime_plain): 1.5041e-05s
+
+K: 2048, iteration : 0
+
+# elapsed time (softime_plain): 2.8346e-05s
+
+K: 2048, iteration : 1
+
+# elapsed time (softime_plain): 2.5556e-05s
+
+K: 2048, iteration : 2
+
+# elapsed time (softime_plain): 2.583e-05s
+
+K: 4096, iteration : 0
+
+# elapsed time (softime_plain): 4.6725e-05s
+
+K: 4096, iteration : 1
+
+# elapsed time (softime_plain): 5.1211e-05s
+
+K: 4096, iteration : 2
+
+# elapsed time (softime_plain): 4.8638e-05s
+
+K: 8192, iteration : 0
+
+# elapsed time (softime_plain): 0.000108801s
+
+K: 8192, iteration : 1
+
+# elapsed time (softime_plain): 8.906e-05s
+
+K: 8192, iteration : 2
+
+# elapsed time (softime_plain): 8.9281e-05s
+
+K: 16384, iteration : 0
+
+# elapsed time (softime_plain): 0.000188944s
+
+K: 16384, iteration : 1
+
+# elapsed time (softime_plain): 0.000201687s
+
+K: 16384, iteration : 2
+
+# elapsed time (softime_plain): 0.000173293s
+
+K: 32768, iteration : 0
+
+# elapsed time (softime_plain): 0.000364591s
+
+K: 32768, iteration : 1
+
+# elapsed time (softime_plain): 0.000342142s
+
+K: 32768, iteration : 2
+
+# elapsed time (softime_plain): 0.000341933s
+
+K: 65536, iteration : 0
+
+# elapsed time (softime_plain): 0.000694844s
+
+K: 65536, iteration : 1
+
+# elapsed time (softime_plain): 0.000710437s
+
+K: 65536, iteration : 2
+
+# elapsed time (softime_plain): 0.000703885s
+
+K: 131072, iteration : 0
+
+# elapsed time (softime_plain): 0.00140974s
+
+K: 131072, iteration : 1
+
+# elapsed time (softime_plain): 0.00144536s
+
+K: 131072, iteration : 2
+
+# elapsed time (softime_plain): 0.00144251s
+
+K: 262144, iteration : 0
+
+# elapsed time (softime_plain): 0.00290103s
+
+K: 262144, iteration : 1
+
+# elapsed time (softime_plain): 0.00285094s
+
+K: 262144, iteration : 2
+
+# elapsed time (softime_plain): 0.00290114s
+
+K: 524288, iteration : 0
+
+# elapsed time (softime_plain): 0.00573161s
+
+K: 524288, iteration : 1
+
+# elapsed time (softime_plain): 0.00576308s
+
+K: 524288, iteration : 2
+
+# elapsed time (softime_plain): 0.00572423s

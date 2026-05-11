@@ -1,0 +1,204 @@
+4c4
+< # elapsed time (softime_avx): 4.8e-07s
+---
+> # elapsed time (softime_auto): 5.078e-06s
+8c8
+< # elapsed time (softime_avx): 3.54e-07s
+---
+> # elapsed time (softime_auto): 4.255e-06s
+12c12
+< # elapsed time (softime_avx): 3.91e-07s
+---
+> # elapsed time (softime_auto): 4.089e-06s
+16c16
+< # elapsed time (softime_avx): 4.29e-07s
+---
+> # elapsed time (softime_auto): 4.467e-06s
+20c20
+< # elapsed time (softime_avx): 4.26e-07s
+---
+> # elapsed time (softime_auto): 4.384e-06s
+24c24
+< # elapsed time (softime_avx): 4e-07s
+---
+> # elapsed time (softime_auto): 4.794e-06s
+28c28
+< # elapsed time (softime_avx): 4.74e-07s
+---
+> # elapsed time (softime_auto): 4.365e-06s
+32c32
+< # elapsed time (softime_avx): 5.42e-07s
+---
+> # elapsed time (softime_auto): 4.471e-06s
+36c36
+< # elapsed time (softime_avx): 6.71e-07s
+---
+> # elapsed time (softime_auto): 4.363e-06s
+40c40
+< # elapsed time (softime_avx): 6.6e-07s
+---
+> # elapsed time (softime_auto): 4.288e-06s
+44c44
+< # elapsed time (softime_avx): 6.44e-07s
+---
+> # elapsed time (softime_auto): 4.499e-06s
+48c48
+< # elapsed time (softime_avx): 6.82e-07s
+---
+> # elapsed time (softime_auto): 4.456e-06s
+52c52
+< # elapsed time (softime_avx): 9.09e-07s
+---
+> # elapsed time (softime_auto): 5.618e-06s
+56c56
+< # elapsed time (softime_avx): 9.24e-07s
+---
+> # elapsed time (softime_auto): 5.128e-06s
+60c60
+< # elapsed time (softime_avx): 9.2e-07s
+---
+> # elapsed time (softime_auto): 5.243e-06s
+64c64
+< # elapsed time (softime_avx): 1.498e-06s
+---
+> # elapsed time (softime_auto): 7.343e-06s
+68c68
+< # elapsed time (softime_avx): 1.495e-06s
+---
+> # elapsed time (softime_auto): 7.387e-06s
+72c72
+< # elapsed time (softime_avx): 1.432e-06s
+---
+> # elapsed time (softime_auto): 7.284e-06s
+76c76
+< # elapsed time (softime_avx): 2.619e-06s
+---
+> # elapsed time (softime_auto): 6.403e-06s
+80c80
+< # elapsed time (softime_avx): 2.615e-06s
+---
+> # elapsed time (softime_auto): 6.45e-06s
+84c84
+< # elapsed time (softime_avx): 2.609e-06s
+---
+> # elapsed time (softime_auto): 9.351e-06s
+88c88
+< # elapsed time (softime_avx): 4.888e-06s
+---
+> # elapsed time (softime_auto): 1.1197e-05s
+92c92
+< # elapsed time (softime_avx): 4.557e-06s
+---
+> # elapsed time (softime_auto): 9.066e-06s
+96c96
+< # elapsed time (softime_avx): 4.872e-06s
+---
+> # elapsed time (softime_auto): 1.4543e-05s
+100c100
+< # elapsed time (softime_avx): 9.419e-06s
+---
+> # elapsed time (softime_auto): 1.1705e-05s
+104c104
+< # elapsed time (softime_avx): 9.88e-06s
+---
+> # elapsed time (softime_auto): 1.1925e-05s
+108c108
+< # elapsed time (softime_avx): 7.474e-06s
+---
+> # elapsed time (softime_auto): 1.3179e-05s
+112c112
+< # elapsed time (softime_avx): 1.2047e-05s
+---
+> # elapsed time (softime_auto): 1.8716e-05s
+116c116
+< # elapsed time (softime_avx): 1.2261e-05s
+---
+> # elapsed time (softime_auto): 2.0999e-05s
+120c120
+< # elapsed time (softime_avx): 2.015e-05s
+---
+> # elapsed time (softime_auto): 1.9211e-05s
+124c124
+< # elapsed time (softime_avx): 2.575e-05s
+---
+> # elapsed time (softime_auto): 3.3703e-05s
+128c128
+< # elapsed time (softime_avx): 2.3385e-05s
+---
+> # elapsed time (softime_auto): 3.6405e-05s
+132c132
+< # elapsed time (softime_avx): 2.3662e-05s
+---
+> # elapsed time (softime_auto): 3.3661e-05s
+136c136
+< # elapsed time (softime_avx): 4.4832e-05s
+---
+> # elapsed time (softime_auto): 6.0795e-05s
+140c140
+< # elapsed time (softime_avx): 4.8835e-05s
+---
+> # elapsed time (softime_auto): 6.0777e-05s
+144c144
+< # elapsed time (softime_avx): 5.2608e-05s
+---
+> # elapsed time (softime_auto): 6.1767e-05s
+148c148
+< # elapsed time (softime_avx): 0.000119269s
+---
+> # elapsed time (softime_auto): 0.000115151s
+152c152
+< # elapsed time (softime_avx): 9.4415e-05s
+---
+> # elapsed time (softime_auto): 0.000125167s
+156c156
+< # elapsed time (softime_avx): 0.000115923s
+---
+> # elapsed time (softime_auto): 0.000114838s
+160c160
+< # elapsed time (softime_avx): 0.000217189s
+---
+> # elapsed time (softime_auto): 0.000275944s
+164c164
+< # elapsed time (softime_avx): 0.000224065s
+---
+> # elapsed time (softime_auto): 0.000272322s
+168c168
+< # elapsed time (softime_avx): 0.000232503s
+---
+> # elapsed time (softime_auto): 0.000229258s
+172c172
+< # elapsed time (softime_avx): 0.00044061s
+---
+> # elapsed time (softime_auto): 0.000456615s
+176c176
+< # elapsed time (softime_avx): 0.000410504s
+---
+> # elapsed time (softime_auto): 0.000483129s
+180c180
+< # elapsed time (softime_avx): 0.000372086s
+---
+> # elapsed time (softime_auto): 0.000517623s
+184c184
+< # elapsed time (softime_avx): 0.000800673s
+---
+> # elapsed time (softime_auto): 0.000965441s
+188c188
+< # elapsed time (softime_avx): 0.000782252s
+---
+> # elapsed time (softime_auto): 0.000993281s
+192c192
+< # elapsed time (softime_avx): 0.000822552s
+---
+> # elapsed time (softime_auto): 0.000981064s
+196c196
+< # elapsed time (softime_avx): 0.00164971s
+---
+> # elapsed time (softime_auto): 0.00208207s
+200c200
+< # elapsed time (softime_avx): 0.00153421s
+---
+> # elapsed time (softime_auto): 0.00202469s
+204c204
+< # elapsed time (softime_avx): 0.00168597s
+---
+> # elapsed time (softime_auto): 0.00195407s
