@@ -1,0 +1,69 @@
+TESTING WITH 1 LARGE RANGE
+
+SEQUENTIAL
+Sequential implementation
+1000000000000000000-1000000000010000000: 1126
+# elapsed time (timer_seq_Tot): 7.38655s
+Total Collatz lengths: 4096346561
+
+PARALLEL STATIC
+Threads: 1, Chunk Size: 512
+Static scheduling.
+Running with 1 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 8.1023s
+
+Threads: 2, Chunk Size: 512
+Static scheduling.
+Running with 2 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 4.09607s
+
+Threads: 4, Chunk Size: 512
+Static scheduling.
+Running with 4 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 2.13253s
+
+Threads: 8, Chunk Size: 512
+Static scheduling.
+Running with 8 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 1.11499s
+
+Threads: 16, Chunk Size: 512
+Static scheduling.
+Running with 16 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.558803s
+
+Threads: 32, Chunk Size: 512
+Static scheduling.
+Running with 32 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.373768s
+
+PARALLEL DYNAMIC
+Threads: 1, Chunk Size: 512
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 8.44641s
+
+Threads: 2, Chunk Size: 512
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 4.08374s
+
+Threads: 4, Chunk Size: 512
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 2.11966s
+
+Threads: 8, Chunk Size: 512
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 1.06204s
+
+Threads: 16, Chunk Size: 512
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.611139s
+
+Threads: 32, Chunk Size: 512
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.348459s

@@ -1,0 +1,555 @@
+TESTING WITH 1 LARGE RANGE
+
+SEQUENTIAL
+Sequential implementation
+1000000000000000000-1000000000010000000: 1126
+# elapsed time (timer_seq): 7.88139s
+100000-110000: 353
+# elapsed time (timer_seq): 0.00283794s
+1000000-2000000: 556
+# elapsed time (timer_seq): 0.32701s
+# elapsed time (timer_seq_Tot): 8.21152s
+Total Collatz lengths: 4243270092
+
+
+PARALLEL STATIC
+Threads: 1, Chunk Size: 8
+Static scheduling.
+Running with 1 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 8.43175s
+
+Threads: 1, Chunk Size: 16
+Static scheduling.
+Running with 1 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 8.43129s
+
+Threads: 1, Chunk Size: 32
+Static scheduling.
+Running with 1 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 8.43582s
+
+Threads: 1, Chunk Size: 64
+Static scheduling.
+Running with 1 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 8.44439s
+
+Threads: 1, Chunk Size: 128
+Static scheduling.
+Running with 1 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 8.4403s
+
+Threads: 1, Chunk Size: 256
+Static scheduling.
+Running with 1 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 8.43906s
+
+Threads: 1, Chunk Size: 512
+Static scheduling.
+Running with 1 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 8.43686s
+
+Threads: 1, Chunk Size: 1024
+Static scheduling.
+Running with 1 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 8.43766s
+
+Threads: 1, Chunk Size: 2048
+Static scheduling.
+Running with 1 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 8.44179s
+
+Threads: 2, Chunk Size: 8
+Static scheduling.
+Running with 2 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 4.55271s
+
+Threads: 2, Chunk Size: 16
+Static scheduling.
+Running with 2 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 4.4034s
+
+Threads: 2, Chunk Size: 32
+Static scheduling.
+Running with 2 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 4.43285s
+
+Threads: 2, Chunk Size: 64
+Static scheduling.
+Running with 2 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 4.36051s
+
+Threads: 2, Chunk Size: 128
+Static scheduling.
+Running with 2 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 4.33908s
+
+Threads: 2, Chunk Size: 256
+Static scheduling.
+Running with 2 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 4.2729s
+
+Threads: 2, Chunk Size: 512
+Static scheduling.
+Running with 2 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 4.28214s
+
+Threads: 2, Chunk Size: 1024
+Static scheduling.
+Running with 2 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 4.24018s
+
+Threads: 2, Chunk Size: 2048
+Static scheduling.
+Running with 2 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 4.23669s
+
+Threads: 4, Chunk Size: 8
+Static scheduling.
+Running with 4 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 2.46423s
+
+Threads: 4, Chunk Size: 16
+Static scheduling.
+Running with 4 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 2.37344s
+
+Threads: 4, Chunk Size: 32
+Static scheduling.
+Running with 4 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 2.37122s
+
+Threads: 4, Chunk Size: 64
+Static scheduling.
+Running with 4 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 2.32582s
+
+Threads: 4, Chunk Size: 128
+Static scheduling.
+Running with 4 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 2.34834s
+
+Threads: 4, Chunk Size: 256
+Static scheduling.
+Running with 4 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 2.31225s
+
+Threads: 4, Chunk Size: 512
+Static scheduling.
+Running with 4 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 2.29442s
+
+Threads: 4, Chunk Size: 1024
+Static scheduling.
+Running with 4 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 2.28716s
+
+Threads: 4, Chunk Size: 2048
+Static scheduling.
+Running with 4 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 2.28804s
+
+Threads: 8, Chunk Size: 8
+Static scheduling.
+Running with 8 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 1.35078s
+
+Threads: 8, Chunk Size: 16
+Static scheduling.
+Running with 8 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 1.27347s
+
+Threads: 8, Chunk Size: 32
+Static scheduling.
+Running with 8 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 1.27656s
+
+Threads: 8, Chunk Size: 64
+Static scheduling.
+Running with 8 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 1.22234s
+
+Threads: 8, Chunk Size: 128
+Static scheduling.
+Running with 8 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 1.18683s
+
+Threads: 8, Chunk Size: 256
+Static scheduling.
+Running with 8 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 1.16848s
+
+Threads: 8, Chunk Size: 512
+Static scheduling.
+Running with 8 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 1.16122s
+
+Threads: 8, Chunk Size: 1024
+Static scheduling.
+Running with 8 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 1.15468s
+
+Threads: 8, Chunk Size: 2048
+Static scheduling.
+Running with 8 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 1.15047s
+
+Threads: 16, Chunk Size: 8
+Static scheduling.
+Running with 16 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 0.715602s
+
+Threads: 16, Chunk Size: 16
+Static scheduling.
+Running with 16 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 0.666741s
+
+Threads: 16, Chunk Size: 32
+Static scheduling.
+Running with 16 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 0.654874s
+
+Threads: 16, Chunk Size: 64
+Static scheduling.
+Running with 16 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 0.621792s
+
+Threads: 16, Chunk Size: 128
+Static scheduling.
+Running with 16 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 0.60368s
+
+Threads: 16, Chunk Size: 256
+Static scheduling.
+Running with 16 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 0.590071s
+
+Threads: 16, Chunk Size: 512
+Static scheduling.
+Running with 16 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.583158s
+
+Threads: 16, Chunk Size: 1024
+Static scheduling.
+Running with 16 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 0.580245s
+
+Threads: 16, Chunk Size: 2048
+Static scheduling.
+Running with 16 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 0.578915s
+
+Threads: 32, Chunk Size: 8
+Static scheduling.
+Running with 32 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 0.495134s
+
+Threads: 32, Chunk Size: 16
+Static scheduling.
+Running with 32 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 0.459813s
+
+Threads: 32, Chunk Size: 32
+Static scheduling.
+Running with 32 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 0.443719s
+
+Threads: 32, Chunk Size: 64
+Static scheduling.
+Running with 32 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 0.422305s
+
+Threads: 32, Chunk Size: 128
+Static scheduling.
+Running with 32 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 0.406629s
+
+Threads: 32, Chunk Size: 256
+Static scheduling.
+Running with 32 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 0.396888s
+
+Threads: 32, Chunk Size: 512
+Static scheduling.
+Running with 32 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.391488s
+
+Threads: 32, Chunk Size: 1024
+Static scheduling.
+Running with 32 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 0.389488s
+
+Threads: 32, Chunk Size: 2048
+Static scheduling.
+Running with 32 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 0.389148s
+
+PARALLEL DYNAMIC
+Threads: 1, Chunk Size: 8
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 10.722s
+
+Threads: 1, Chunk Size: 16
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 9.50098s
+
+Threads: 1, Chunk Size: 32
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 8.94678s
+
+Threads: 1, Chunk Size: 64
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 8.64703s
+
+Threads: 1, Chunk Size: 128
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 8.51194s
+
+Threads: 1, Chunk Size: 256
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 8.43662s
+
+Threads: 1, Chunk Size: 512
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 8.77054s
+
+Threads: 1, Chunk Size: 1024
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 8.46635s
+
+Threads: 1, Chunk Size: 2048
+Dynamic scheduling.
+Running with 1 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 8.2287s
+
+Threads: 2, Chunk Size: 8
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 6.47863s
+
+Threads: 2, Chunk Size: 16
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 5.30132s
+
+Threads: 2, Chunk Size: 32
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 4.73803s
+
+Threads: 2, Chunk Size: 64
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 4.48122s
+
+Threads: 2, Chunk Size: 128
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 4.33755s
+
+Threads: 2, Chunk Size: 256
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 4.25712s
+
+Threads: 2, Chunk Size: 512
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 4.25067s
+
+Threads: 2, Chunk Size: 1024
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 4.20547s
+
+Threads: 2, Chunk Size: 2048
+Dynamic scheduling.
+Running with 2 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 4.15945s
+
+Threads: 4, Chunk Size: 8
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 4.03263s
+
+Threads: 4, Chunk Size: 16
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 2.92897s
+
+Threads: 4, Chunk Size: 32
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 2.52871s
+
+Threads: 4, Chunk Size: 64
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 2.36355s
+
+Threads: 4, Chunk Size: 128
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 2.2466s
+
+Threads: 4, Chunk Size: 256
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 2.23116s
+
+Threads: 4, Chunk Size: 512
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 2.1814s
+
+Threads: 4, Chunk Size: 1024
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 2.21522s
+
+Threads: 4, Chunk Size: 2048
+Dynamic scheduling.
+Running with 4 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 2.19448s
+
+Threads: 8, Chunk Size: 8
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 5.20724s
+
+Threads: 8, Chunk Size: 16
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 1.84619s
+
+Threads: 8, Chunk Size: 32
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 1.33743s
+
+Threads: 8, Chunk Size: 64
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 1.20947s
+
+Threads: 8, Chunk Size: 128
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 1.15073s
+
+Threads: 8, Chunk Size: 256
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 1.12389s
+
+Threads: 8, Chunk Size: 512
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 1.1082s
+
+Threads: 8, Chunk Size: 1024
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 1.09942s
+
+Threads: 8, Chunk Size: 2048
+Dynamic scheduling.
+Running with 8 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 1.09476s
+
+Threads: 16, Chunk Size: 8
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 4.89877s
+
+Threads: 16, Chunk Size: 16
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 2.71123s
+
+Threads: 16, Chunk Size: 32
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 0.907457s
+
+Threads: 16, Chunk Size: 64
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 0.748039s
+
+Threads: 16, Chunk Size: 128
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 0.588838s
+
+Threads: 16, Chunk Size: 256
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 0.573849s
+
+Threads: 16, Chunk Size: 512
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.567258s
+
+Threads: 16, Chunk Size: 1024
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 0.554255s
+
+Threads: 16, Chunk Size: 2048
+Dynamic scheduling.
+Running with 16 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 0.557347s
+
+Threads: 32, Chunk Size: 8
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 8.
+# elapsed time (timer_par_Tot): 5.56363s
+
+Threads: 32, Chunk Size: 16
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 16.
+# elapsed time (timer_par_Tot): 2.92142s
+
+Threads: 32, Chunk Size: 32
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 32.
+# elapsed time (timer_par_Tot): 1.35044s
+
+Threads: 32, Chunk Size: 64
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 64.
+# elapsed time (timer_par_Tot): 0.766447s
+
+Threads: 32, Chunk Size: 128
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 128.
+# elapsed time (timer_par_Tot): 0.40939s
+
+Threads: 32, Chunk Size: 256
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 256.
+# elapsed time (timer_par_Tot): 0.374175s
+
+Threads: 32, Chunk Size: 512
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 512.
+# elapsed time (timer_par_Tot): 0.369068s
+
+Threads: 32, Chunk Size: 1024
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 1024.
+# elapsed time (timer_par_Tot): 0.365765s
+
+Threads: 32, Chunk Size: 2048
+Dynamic scheduling.
+Running with 32 threads and a chunk size of 2048.
+# elapsed time (timer_par_Tot): 0.36405s

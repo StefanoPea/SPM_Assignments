@@ -1,0 +1,5 @@
+Sequential implementation
+1-1000: 178
+# elapsed time (timer_seq): 0.000274395s
+# elapsed time (timer_seq_Tot): 0.000439747s
+Total Collatz lengths: 59542
